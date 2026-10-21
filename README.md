@@ -17,6 +17,18 @@ using Java, REST Assured, and TestNG.
 3. Validate the users list and its response structure.
 4. Validate the response Content-Type header.
 5. Verify another user's details.
+   ## Test scenarios
+
+| Class | Test | What it validates | Endpoint |
+|-------|------|-------------------|----------|
+| GetApiTest | verifyUserDetails | Response data for a single user | (fill in) |
+| UserApiTests | verifyUserList | User list is returned successfully | (fill in) |
+| UserApiTests | verifyExistingUserId | An existing user ID returns the expected user | (fill in) |
+| UserApiTests | verifyDifferentUser | A different user ID returns different, correct data | (fill in) |
+| UserApiTests | verifyUserDetails | User fields in the response body | (fill in) |
+| UserApiTests | verifyResponseContentType | Response `Content-Type` header is JSON | (fill in) |
+
+**Result:** 6 tests, 0 failures, about 2.5 seconds total.
 
 ## API Under Test
 https://jsonplaceholder.typicode.com/
